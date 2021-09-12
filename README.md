@@ -52,6 +52,8 @@ This action will build apk, and it will install on the Emulator.
 - Later you can locate the build here - <b><Project_Location>/app/build/outputs/apk/debug/</b>
 
 ### Example App can be downloaded here
+https://github.com/shreyas18jan/AndroidAppExample/blob/main/app-debug.apk
+	
 
 
 
