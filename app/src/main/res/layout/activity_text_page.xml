@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextExamplePage">
+
+    <!--
+    ScrollView : Used for Scrolling one Element / make an element scrollable.
+    attributes used - Width, Height
+    More Info - https://developer.android.com/reference/android/widget/ScrollView
+    -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--
+        LinearLayout : Used for Aligning View Either Horizontally or Vertically.
+        attributes used - Width, Height, Orientation(vertical/horizontal), Id(to uniquely identify this button)
+        More Info - https://developer.android.com/reference/android/widget/LinearLayout
+        -->
+        <LinearLayout
+            android:id="@+id/textPageExample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--
+            TextView : Used for displaying Text.
+            attributes used - Width, Height, Id(to uniquely identify this button), Text Alignment, Text(text to show), Padding, Text Size
+            More Info - https://developer.android.com/reference/android/widget/TextView
+            -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/scroll_demonstration"
+                android:padding="10dp"
+                android:textSize="24sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

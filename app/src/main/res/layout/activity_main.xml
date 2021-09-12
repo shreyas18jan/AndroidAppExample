@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--
+    LinearLayout : Used for Aligning View Either Horizontally or Vertically.
+    attributes used - Width, Height, Orientation(vertical/horizontal), Gravity(Alignment)
+    More Info - https://developer.android.com/reference/android/widget/LinearLayout
+    -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <!--
+        Button : Used for performing an action on Tap/Click.
+        attributes used - Width, Height, Id(to uniquely identify this button), Gravity(Alignment), Text(text on top of button)
+        More Info - https://developer.android.com/reference/android/widget/Button
+        -->
+        <Button
+            android:id="@+id/ButtonLabel"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="@string/label_demo"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints"/>
+
+        <!--
+        Button : Used for performing an action on Tap/Click.
+        attributes used - Width, Height, Id(to uniquely identify this button), Gravity(Alignment), Text(text on top of button)
+        More Info - https://developer.android.com/reference/android/widget/Button
+        -->
+        <Button
+            android:id="@+id/ButtonText"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_demo"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

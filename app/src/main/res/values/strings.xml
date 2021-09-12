@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android App Example</string>
+    <string name="label_demo">Example Page 1</string>
+    <string name="text_demo">Example Page 2</string>
+    <string name="label_example">DEMO EXAMPLE FOR LABEL</string>
+    <string name="scroll_demonstration">DEMO EXAMPLE FOR SCROLLING\n</string>
+</resources>
